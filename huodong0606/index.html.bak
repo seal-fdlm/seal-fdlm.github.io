@@ -1,0 +1,50 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;"  />
+
+    <title>饭店联盟大促</title>
+	<style>
+	html,
+	body,
+	section,
+	article{
+    width: 100%;
+    margin:0px;
+    padding: 0px;
+    font-family: "Segoe UI","Lucida Grande",Helvetica,Arial, "Microsoft YaHei",FreeSans,Arimo,"Droid Sans", "wenquanyi micro hei","Hiragino Sans GB", "Hiragino Sans GB W3",sans-serif;
+    color: #333;
+    background: #fff;
+    font-size:14px;
+	}
+	article h2{
+    text-align: center;
+	}
+	section p{
+    padding:5px 0px;
+	}
+	</style>
+</head>
+<body>
+<article>
+    <section>
+        <img src="img/banner.png" width="100%">
+    </section>
+    <h2>欢乐周六日饭店联盟大回馈</h2>
+    <section>
+        <p>
+    &nbsp;&nbsp;活动时间：2015年6月6日-6月7日<br>
+    &nbsp;&nbsp;活动区域：上海区域<br>
+    &nbsp;&nbsp;活动详情：<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;本周星期六、星期天共计两天，每天下单满100元及以上，立减10元！<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1：取消订单导致金额不到100元，不可享受优惠。<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2：每位用户当日只能享受一次，且不叠加。<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3：可以和饭店联盟现有的活动叠加<br>
+
+	<p style='font-size: 10px;'>&nbsp;&nbsp;&nbsp;&nbsp;活动最终解释权归北京吉食语科技有限公司所有</p>
+        </p>
+    </section>
+</article>
+</body>
+</html>

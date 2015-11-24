@@ -1,0 +1,39 @@
+.top-nav{width: 100%;border-bottom: 1px solid #f4f4f4;}
+.top-nav .nav{width: 1000px;height: 90px;margin: 0 auto}
+.top-nav .nav h1{padding-top: 26px;}
+
+
+.top-nav ul{margin-right: 20px;padding-top: 25px;}
+.top-nav ul li{display: inline-block;height: 35px;line-height: 35px;margin: 0 8px;}
+.top-nav ul li a{font-size: 14px;color: #7d7d7d;}
+.top-nav ul li a:hover{color:#ff6200; }
+
+.container{width: 1000px;margin: 0 auto;color: #3d4245;}
+/*======= 招聘 ========*/
+.table-list{width: 900px;margin: 0 auto;border-collapse: collapse;border-spacing: 0;margin-bottom: 100px;}
+.table-list th{border-bottom: 1px solid #d5d5d5;font-size: 18px;font-weight: normal;}
+.table-list td,.table-list th{text-align: center;}
+.table-list .text-left{text-align: left;}
+.table-list td{font-size: 14px;}
+.table-list tbody tr{border-bottom: 1px solid #e5e5e5;cursor: pointer;}
+.table-list td,.table-list th{padding: 25px 0}
+.table-list .color-73d4245{color: #3d4245;}
+.table-list .color-7d7d7d{color: #7d7d7d;}
+.table-list a{position: relative;display: inline-block;width: 100px;height: 20px;text-align: left;}
+.table-list i{display: inline-block;width: 9px;height: 6px;position: absolute;right: 0px;top:8px;background: url(../images/jop-img1.png) no-repeat 0 -6px;}
+.table-list i.up{background-position: 0 0;}
+.table-list .tr-detail{}
+.table-list .tr-detail td{padding: 0 0 0 0;}
+.table-list .li-detail{background: #e5e5e5;padding: 30px;display: none;}
+.table-list .li-detail p{height: 30px;line-height: 30px;}
+.table-list .li-detail li{line-height: 20px;}
+
+
+/*=========联系我们=========*/
+.contact{padding-top: 100px;padding-bottom: 200px;}
+.contact dl{float: left;width: 100%;padding-left: 50px;}
+.contact dt{font-size: 30px;color: #ff6200;float: left;width: 150px;height: 150px;text-align: right;margin-top: -2px;margin-right:40px; }
+.contact dd{font-size: 14px;padding: 2px 0;color: #7d7d7d;}
+
+
+.footer{width: 1000px;margin: 0 auto;text-align: center;padding-bottom: 20px;clear: both;}

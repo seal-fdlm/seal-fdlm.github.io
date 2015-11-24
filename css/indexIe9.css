@@ -1,0 +1,15 @@
+#section2 .iphone{margin-left: -50%;}
+#section2 .iphone img{top:62px;left:16px;margin-left:0;margin-top:0;width: 172px;height: 301px;}
+#section2 ul{top:0;margin-top: 280px;font-size: 24px;}
+#section3 .container{width: 100%;height: 100%;}
+#section3 .main{background: red;width: 1142px;height: 90%;background: url(../images/p3-bg.png) no-repeat center center;overflow: hidden;}
+#section3 .float-box-1{top:500px;left: 2%;}
+#section3 .float-box-2{top:100px;left: 50%;}
+#section3 .float-box-3{top:500px;left: 50%;}
+
+#section4 .ul-left{display: none;}
+#section4 .ul-right{display: none;}
+#section4 .radish-box img{display: none;}
+
+#section4 .radish-box{background: url(../images/p4-img1-2.jpg) no-repeat center center;width: 697px;height: 557px;display: block;margin: 0 auto;margin-top: 10%;opacity:1;}
+#section5 .main{margin-top: -10%;margin-left:-25%;transform: translate(0,0);}

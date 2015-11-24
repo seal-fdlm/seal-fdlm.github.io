@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1.0,user-scalable=no,minimum-scale=1.0,maximum-scale=1.0">
+
+    <title>饭店联盟大促</title>
+    <style type="text/css">
+        body {
+	font-size: 15px;
+	margin: 5PX;
+	padding: 0;
+        }
+        img{width: 100%;height: auto;}
+    </style>
+</head>
+<body>
+
+<p class="cjk" align="CENTER" style="margin-bottom: 0cm; font-weight: bold;"><img src="img/banner.png" name="饭店联盟大促" align="CENTRE" border="0"></p>
+
+<p class="cjk" align="CENTER" style="margin-bottom: 0cm; font-weight: bold; font-size: 20px; "><font face="微软雅黑, sans-serif"><font size="5"></font></font>端午5日狂欢节</p>
+<p align="left" style="font-weight: bold;margin-bottom: 0cm">活动时间：2015年6 月 18 日~6月22日</p>
+<p align="left" style="font-weight: bold;margin-bottom: 0cm">活动区域：北京区域</p>
+<p align="left" style="font-weight: bold;margin-bottom: 0cm">活动详情：</p>
+<p align="left" style="padding-left:30px; margin-bottom: 0cm">6月18日起，连续5天的返利狂欢节，单笔订单满400送20元现金券，每天均可享受一次，你来不来！</p>
+<p align="left" style="font-weight: bold;margin-bottom: 0cm">活动规则：</p>
+<p align="left" style="padding-left:30px; margin-bottom: 0cm">1：每位用户每天可享受一次，且不叠加。</p>
+<p align="left" style="padding-left:30px; margin-bottom: 0cm">2：米、面不参加活动。</p>
+<p align="left" style="padding-left:30px; margin-bottom: 0cm">3：如取消订单，无法获得现金券。</p>
+<p align="left" style="padding-left:30px; margin-bottom: 0cm">4：如发生退货，现金券不予退还。</p>
+<p align="left" style="padding-left:30px; margin-bottom: 0cm">5：现金券使用有效期截止日：2015年6月30日。</p>
+<p class="cjk" align="CENTER" style="margin-bottom: 0cm; font-weight: bold; font-size: 10px; "><font face="微软雅黑, sans-serif"><font size="5"></font></font>活动最终解释权归北京吉食语科技有限公司所有</p>
+</body></html>

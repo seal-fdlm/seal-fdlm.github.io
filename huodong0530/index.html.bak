@@ -1,0 +1,51 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;"  />
+
+    <title>饭店联盟大促</title>
+	<style>
+	html,
+	body,
+	section,
+	article{
+    width: 100%;
+    margin:0px;
+    padding: 0px;
+    font-family: "Segoe UI","Lucida Grande",Helvetica,Arial, "Microsoft YaHei",FreeSans,Arimo,"Droid Sans", "wenquanyi micro hei","Hiragino Sans GB", "Hiragino Sans GB W3",sans-serif;
+    color: #333;
+    background: #fff;
+    font-size:14px;
+	}
+	article h2{
+    text-align: center;
+	}
+	section p{
+    padding:5px 0px;
+	}
+	</style>
+</head>
+<body>
+<article>
+    <section>
+        <img src="img/banner.png" width="100%">
+    </section>
+    <h2>五月风暴，最后来袭，下单立减10元</h2>
+    <section>
+        <p>
+    &nbsp;&nbsp;活动时间：2015年5月31日<br>
+    &nbsp;&nbsp;活动区域：北京<br>
+    &nbsp;&nbsp;活动详情：<br>
+
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;饭店联盟特惠风暴，就在五月最后一天！
+让我们再疯狂一把：
+5.31日每位客户均可享受一次”下单立减10元”的超值优惠！
+活动规则：5月31日下单立减10元，每位用户当日仅享受一次，且不叠加(如取消订单则不享受折扣，米、面不参加活动)。
+
+	<p style='font-size: 10px;'>&nbsp;&nbsp;活动最终解释权归北京吉食语科技有限公司所有</p>
+        </p>
+    </section>
+</article>
+</body>
+</html>

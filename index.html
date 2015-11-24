@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>饭店联盟首页</title>
+    <link rel="stylesheet" href="css/basic.css">
+    <link rel="stylesheet" href="js/jquery.pagepiling/jquery.pagepiling.css">
+    <link rel="stylesheet" href="css/index.css">
+    <!--[if lte IE 9]>
+    <link rel="stylesheet" href="css/indexIe9.css">
+    <![endif]-->
+    <script>
+        if(!IsPC()){
+            window.location.href="http://www.fdlm.cn/welcome.html";
+        }
+        function IsPC() {
+            var userAgentInfo = navigator.userAgent;
+            var Agents = ["Android", "iPhone",
+                "SymbianOS", "Windows Phone",
+                "iPad", "iPod"];
+            var flag = true;
+            for (var v = 0; v < Agents.length; v++) {
+                if (userAgentInfo.indexOf(Agents[v]) > 0) {
+                    flag = false;
+                    break;
+                }
+            }
+            return flag;
+        }
+    </script>
+</head>
+<body>
+
+
+<div id="pagep-box" style="overflow: hidden;">
+    <!--------------第一屏----------------->
+   <div class="section " id="section1">
+        <div id="nav">
+            <h1 class="fl"><img src="images/logo.png" ></h1>
+            <ul class="fr nav-menu">
+                <li><a href="./">首页</a></li>
+                <li><a href="javascript:;" data-index="2">产品介绍</a></li>
+                <li><a href="javascript:;" data-index="3">明星客户</a></li>
+                <li><a href="javascript:;" data-index="4">公司构成</a></li>
+                <li><a href="javascript:;" data-index="5">关于我们</a></li>
+            </ul>
+        </div>
+        <div class="container">
+            <div class="title">打造中国餐饮原材料服务第一品牌</div>
+            <div class="text"><img src="images/p1-text.png"></div>
+            <div class="download">
+                <a href="###" class="fl code"><img src="images/code.png" /></a>
+                <a href="http://www.fdlm.cn/fdlm.apk" class="fr android mb10"><img src="images/android.png" /></a>
+                <a href="https://itunes.apple.com/us/app/fan-dian-lian-meng/id931388631?mt=8&ign-mpt=uo%3D4" class="fr iphone"><img src="images/iphone.png" /></a>
+            </div>
+        </div>
+    </div>
+
+    <!--------------第二屏----------------->
+    <div class="section" id="section2">
+        <div class="container">
+            <div class="iphone-box">
+                <div class="line-top"><i></i></div>
+                <div class="iphone">
+                    <div class="iphone-box">
+                        <div class="screen-1 nav-screen show">
+                            <a href="javascript:;" class="a1 section2-a1"></a>
+                            <div class="footer">
+                                <a href="javascript:;" class="nav-index"></a>
+                                <a href="javascript:;" class="nav-cart"></a>
+                                <a href="javascript:;" class="nav-user"></a>
+                            </div>
+                            <div class="second-screen1" >
+                                <a class="back1" href="javascript:;"></a>
+                                <a class="box"  href="javascript:;"></a>
+                            </div>
+                            <div class="second-screen2" >
+                                <a class="back1" href="javascript:;"></a>
+                            </div>
+                        </div>
+                        <div class="screen-2 nav-screen" id="screen-2">
+                            <div class="footer">
+                                <a href="javascript:;" class="nav-index"></a>
+                                <a href="javascript:;" class="nav-cart"></a>
+                                <a href="javascript:;" class="nav-user"></a>
+                            </div>
+                        </div>
+                        <div class="screen-3 nav-screen" id="screen-3">
+                            <div class="footer">
+                                <a href="javascript:;" class="nav-index"></a>
+                                <a href="javascript:;" class="nav-cart"></a>
+                                <a href="javascript:;" class="nav-user"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="line-bottom"><i></i></div>
+            </div>
+            <ul>
+                <li><i>省钱</i> 最低的价格一站式送达</li>
+                <li><i>省心</i> 优质放心的食材最速送达</li>
+                <li><i>省力</i> 原材料配送3.0时代</li>
+                <li><a href="javascript:;" class="more"><img src="images/p2-button.png"></a></li>
+            </ul>
+        </div>
+    </div>
+    <!--------------第三屏----------------->
+    <div class="section" id="section3">
+        <div class="container">
+            <div class="top-title">
+                <h2>明星客户</h2>
+                <h3>数百万饭店人的选择</h3>
+            </div>
+            <div class="main">
+                <a href="###" class="float-box float-box-1">
+                    <div class="tip-img-box">
+                        <div class="img-box"><img src="images/p3-img2.jpg"/></div>
+                    </div>
+                    <h2>此处省略200字</h2>
+                </a>
+
+                <a href="###" class="float-box float-box-2">
+                    <div class="tip-img-box">
+                        <div class="img-box"><img src="images/p3-img3.jpg"/></div>
+                    </div>
+                    <h2>此处省略200字</h2>
+                </a>
+
+                <a href="###" class="float-box float-box-3">
+                    <div class="tip-img-box">
+                        <div class="img-box"><img src="images/p3-img4.jpg"/></div>
+                    </div>
+                    <h2>此处省略200字</h2>
+                </a>
+            </div>
+            <div class="timer-box">
+                已有<span class="timer-number">0</span>家饭店选择我们
+            </div>
+        </div>
+    </div>
+    <!--------------第四屏----------------->
+    <div class="section" id="section4">
+        <div class="container">
+            <h5>公司构成</h5>
+            <ul class="ul-left">
+                <li>
+                    <div class="dot"></div>
+                    <div class="line"></div>
+                    <div class="name">
+                        <p>销售部</p>
+                       <img src="images/p4-img2.jpg">
+                    </div>
+                </li>
+                <li>
+                    <div class="dot"></div>
+                    <div class="line"></div>
+                    <div class="name">
+                        <p>市场部</p>
+                        <img src="images/p4-img2.jpg">
+                    </div>
+                </li>
+                <li>
+                    <div class="dot"></div>
+                    <div class="line"></div>
+                    <div class="name">
+                        <p>采购部</p>
+                        <img src="images/p4-img2.jpg">
+                    </div>
+                </li>
+                <li>
+                    <div class="dot"></div>
+                    <div class="line"></div>
+                    <div class="name">
+                        <p>研发部</p>
+                        <img src="images/p4-img2.jpg">
+                    </div>
+                </li>
+            </ul>
+
+            <ul class="ul-right">
+                <li>
+                    <div class="dot"></div>
+                    <div class="line"></div>
+                    <div class="name">
+                        <p>物流部</p>
+                        <img src="images/p4-img2.jpg">
+                    </div>
+                </li>
+                <li>
+                    <div class="dot"></div>
+                    <div class="line"></div>
+                    <div class="name">
+                        <p>仓储部</p>
+                        <img src="images/p4-img2.jpg">
+                    </div>
+                </li>
+                <li>
+                    <div class="dot"></div>
+                    <div class="line"></div>
+                    <div class="name">
+                        <p>品控部</p>
+                        <img src="images/p4-img2.jpg">
+                    </div>
+                </li>
+                <li>
+                    <div class="dot"></div>
+                    <div class="line"></div>
+                    <div class="name">
+                        <p>客服部</p>
+                        <img src="images/p4-img2.jpg">
+                    </div>
+                </li>
+                <li>
+                    <div class="dot"></div>
+                    <div class="line"></div>
+                    <div class="name">
+                        <p><span>人力资</span>
+                        <span>源部</span></p>
+                        <img src="images/p4-img2.jpg">
+                    </div>
+                </li>
+            </ul>
+            <div class="line-top"></div>
+            <div class="line-bottom"></div>
+            <div class="radish-box">
+                <img src="images/p4-img1.png" class="radish" />
+            </div>
+        </div>
+    </div>
+    <!--------------第五屏----------------->
+    <div class="section" id="section5">
+        <div class="container">
+            <h2>专注于整合餐饮行业供应链</h2>
+            <h3>做客户的“及时雨”</h3>
+
+            <div class="main">
+                <div class="main-box">
+                    <div class="wrap mr10 fl">
+                        <div class="item item1 fl mb10">
+                            <p><img src="images/pic/zhaochen-t.jpg"></p>
+                            <p><img src="images/pic/zhaochen.jpg"></p>
+                        </div>
+                        <div class="item item2 fr">
+                            <p><img src="images/pic/nuanmei-t.jpg"></p>
+                            <p><img src="images/pic/nuanmei.jpg"></p>
+                        </div>
+                        <div class="item item3 fl">
+                            <p><img src="images/pic/wangruoyu-t.jpg"></p>
+                            <p><img src="images/pic/wangruoyu.jpg"></p>
+                        </div>
+                    </div>
+                    <div class="wrap mr10 fl">
+                        <div class="item item4 fl mr10 mb10">
+                            <p><img src="images/pic/kk-t.jpg"></p>
+                            <p><img src="images/pic/kk.jpg"></p>
+                        </div>
+                        <div class="item item5 fl mb10">
+                            <p><img src="images/pic/wenchao-t.jpg"></p>
+                            <p><img src="images/pic/wenchao.jpg"></p>
+                        </div>
+                        <div class="item item6 fl mr10" >
+                            <p><img src="images/pic/gongzheng-t.jpg"></p>
+                            <p><img src="images/pic/gongzheng.jpg"></p>
+                        </div>
+                        <div class="item item7 fl">
+                            <p><img src="images/pic/xueqiao-t.jpg"></p>
+                            <p><img src="images/pic/xueqiao.jpg"></p>
+                        </div>
+                    </div>
+                    <div class="wrap fl">
+                        <div class="item item8 fl mb10">
+                            <p><img src="images/pic/erge-t.jpg"></p>
+                            <p><img src="images/pic/erge.jpg"></p>
+                        </div>
+                        <div class="item item9 fr">
+                            <p><img src="images/pic/xu-t.jpg"></p>
+                            <p><img src="images/pic/xu.jpg"></p>
+                        </div>
+                        <div class="item item10 fl">
+                            <p><img src="images/pic/dabai-t.jpg"></p>
+                            <p><img src="images/pic/dabai.jpg"></p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="footer">
+                <div class="bar-link">
+                    <a href="job.html">加入我们 </a>|
+                    <a href="javascript:;">企业文化 </a>|
+                    <a href="javascript:;">乐在饭盟 </a>|
+                    <a href="javascript:;">战略合作 </a>|
+                    <a href="contact.html">联系我们</a>
+                </div>
+                <div class="copy">
+                    <p>www.ifdlm.cn 2011-2015 © All Rights Reserved.</p>
+                    <p>京吉食语科技有限公司版权所有 京ICP备14053233号-1</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.pagepiling/jquery.pagepiling.js"></script>
+<script type="text/javascript">
+
+
+
+/*    (function (doc, win) {
+        var docEl = doc.documentElement,
+                resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+                recalc = function () {
+                    var clientWidth = docEl.clientWidth;
+                    if (!clientWidth) return;
+                    if(clientWidth<=320) clientWidth=320;
+                    docEl.style.fontSize = 20 * (clientWidth / 320) + 'px';
+                };
+        if (!doc.addEventListener) return;
+        win.addEventListener(resizeEvt, recalc, false);
+        doc.addEventListener('DOMContentLoaded', recalc, false);
+    })(document, window);*/
+
+
+$('#pagep-box').pagepiling({
+    navigation: {
+        'position': 'right',
+        'tooltips': ['首 页', '产品介绍', '明星客户', '公司构成', '关于我们']
+    },
+    loopBottom:true,
+    loopTop:true,
+    verticalCentered:false, //取消垂直居中
+    scrollingSpeed :1000,   //设置动画时间
+    onLeave:beforeCallback,  //滚动前回调
+    afterLoad :afterCallback,   //滚动后回调
+    afterRender:initCallback //初始化回调
+});
+
+
+
+
+$(".nav-menu a").click(function(){
+    var index = $(this).attr('data-index');
+    if(index>1){
+        $.fn.pagepiling.moveTo(index);
+    }
+
+});
+    function beforeCallback(index, nextIndex, direction){
+        $("#pagep-box .active").addClass('box')
+    }
+
+    function afterCallback(anchorLink, index){
+        if(index == 3){
+            var oTimer = $(".timer-number");
+            if(oTimer.attr('data-timer') == undefined){
+                timer(oTimer);
+            }
+
+        }
+    }
+
+    function initCallback(){
+        $("#section1").addClass('box');
+        //this.addClass('box');
+       /* if(this.attr('id') == "section1"){
+            this.addClass('box');
+        }*/
+    }
+
+
+//第二屏手机内容
+$(".section2-a1").click(function(){
+   $('.second-screen1').addClass('animate');
+})
+$(".second-screen1 .box").click(function(){
+    $(".second-screen2").addClass('animate');
+});
+$(".back1").click(function(){
+    $(this).parent().removeClass('animate');
+})
+$(".nav-index").click(function(){
+    var nav = $("#section2").find(".nav-screen");
+    nav.removeClass('show').eq(0).addClass('show');
+});
+$(".nav-cart").click(function(){
+    var nav = $("#section2").find(".nav-screen");
+    nav.removeClass('show').eq(1).addClass('show');
+});
+$(".nav-user").click(function(){
+    var nav = $("#section2").find(".nav-screen");
+    nav.removeClass('show').eq(2).addClass('show');
+});
+
+function timer(oTimer){
+    oTimer = $(".timer-number");
+    oTimer.attr("data-timer",true)
+    var total = 54900;
+    var n=0;
+    var t = setInterval(function(){
+        n+=200;
+        if(n>=total){
+            oTimer.text(addPerCent(total.toString()));
+            clearInterval(t);
+        } else {
+            oTimer.text(addPerCent(n.toString()));
+        }
+    },10);
+}
+//添加百分号
+function addPerCent(num){
+    var regexStr = /(\d{1,3})(?=(\d{3})+(?:$|\.))/g;
+    return num.replace(regexStr, "$1,");
+}
+
+</script>
+
+
+
+</body>
+</html>

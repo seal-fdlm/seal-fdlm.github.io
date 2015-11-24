@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cross-domain-policy>
+<allow-access-from domain="114.215.159.213"/>
+<allow-access-from domain="os.fdlm.cn"/>
+<allow-access-from domain="sh.os.fdlm.cn"/>
+</cross-domain-policy>
